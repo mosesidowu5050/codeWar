@@ -8,5 +8,11 @@ System.out.print(output);
 }
 
 
+public static String findLongestCommonPrefix(String[] input){
 
+String result = "";
+
+for
+
+  }
 }
