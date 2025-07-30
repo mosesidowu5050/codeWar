@@ -10,7 +10,11 @@ LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefixTest();
 @Test
 public void testLongestCommonPrefixWorks(){
 
-String [] input = {"
+String [] input = {"flower", "flow", "flight"};
+String output = "fl";
+String expected = longestCommonPrefix.findLongestCommonPrefix(input);
+
+assertEquals(output, expected);
 
   }
 
